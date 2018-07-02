@@ -2,7 +2,7 @@ import crawl
 import post
 
 post.install_opener()
-post.login("dudups51@bol.com.br", "9d6ha5o4")	#modificar esta linha com dados corretos, da sua conta do fórum
+post.login("dudups53@bol.com.br", "9d6ha5o4")	#modificar esta linha com dados corretos, da sua conta do fórum
 
 threadids = crawl.getthreadids(57, 1)
 nicks = []
@@ -13,7 +13,14 @@ for threadid in threadids:
 
 nicks = list(set(nicks))
 
+count = 0
 for nick in nicks:
-	post.sendpm(nick, "0 thers.createaforum.com", "Fórum do Tidus.\n\n0 thers.createaforum.com\n\nRemova o espaço do link e cole-o na barra de endereços de seu navegador.")
+	post.sendpm(nick, "Estamos migrando para um novo fórum", "Iniciativa de usuários daqui.\n\n[color=black]0[/color]thers.createaforum.com\n\nLá há 
+verdadeira liberdade de expressão, diferente deste fórum com sua ditadura do politicamente correto.\n\nAguardamos você lá.")
+	count=count+1
+	if count >= 500:
+		print(count)
+		break
 
-
+if count < 500
+	print(count)
