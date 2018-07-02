@@ -18,11 +18,11 @@ def gettoken():
 def sendpm(dest, subject, body):
 	data = urllib.parse.urlencode({"token" : gettoken(), "userId" : "", "pm.text" : "", "username" : dest, "pm.topic" : subject, "message" : body});
 	data = data.encode('ascii')
-        try:
-	    r = urllib.request.urlopen("http://forum.jogos.uol.com.br/send.jbb", data)
-	    return r
+	try:
+		r = urllib.request.urlopen("http://forum.jogos.uol.com.br/send.jbb", data)
+		return r
 	except:
-	    return 0
+		return 0
 
 def gettoken2(forumid):
 	r = urllib.request.urlopen("http://forum.jogos.uol.com.br/new_topic.jbb?forum.id=" + str(forumid))
