@@ -53,3 +53,9 @@ def install_opener():
 	urllib.request.install_opener(opener)
 
 
+"""self.browser.open(&#39;http://forum.jogos.uol.com.br/dwr/call/plaincall/PostFunctions.insertPost.dwr&#39;, 
+&quot;callCount=1\npage=/undervick_t_
+&quot; + str(thread) + &quot;\nhttpSessionId=&quot; + str(self.httptoken) + &quot;\nscriptSessionId=
+&quot; + self.get_token() + &quot;\nc0-scriptName=PostFunctions\nc0-methodName=insertPost\
+nc0-id=0\nc0-param0=number:&quot; + str(thread) + &quot;\nc0-param1=string:&quot; + urllib.quot
+e(message) + &quot;\nbatchId=0&quot;).read())"""

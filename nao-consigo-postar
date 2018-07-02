@@ -1,0 +1,19 @@
+I&#39;M%20BOB%20MOSTRA%20O%20REQUINTE%20DE%20SUA%20CASA%20+TINYCHAT
+Agora n&#xE3;o vou mostrar nada, voc&#xEA; que descubra com suas perguntas.
+C:\Python27\lib\urllib.py:1268: UnicodeWarning: Unicode equal comparison failed
+to convert both arguments to Unicode - interpreting them as being unequal
+  return &#39;&#39;.join(map(quoter, s))
+Traceback (most recent call last):
+  File &quot;C:\Users\Regis\spurgle\ratethread.py&quot;, line 14, in &lt;module&gt;
+    Spurgle.post(topico<span class="brokenBBCode">[</span>&#39;link&#39;], setemsg)
+  File &quot;C:\Users\Regis\spurgle\spurgle.py&quot;, line 35, in post
+    return re.search(&#39;true&#39;, self.browser.open(&#39;http://forum.jogos.uol.com.br/dw
+r/call/plaincall/PostFunctions.insertPost.dwr&#39;, &quot;callCount=1\npage=/undervick_t_
+&quot; + str(thread) + &quot;\nhttpSessionId=&quot; + str(self.httptoken) + &quot;\nscriptSessionId=
+&quot; + self.get_token() + &quot;\nc0-scriptName=PostFunctions\nc0-methodName=insertPost\
+nc0-id=0\nc0-param0=number:&quot; + str(thread) + &quot;\nc0-param1=string:&quot; + urllib.quot
+e(message) + &quot;\nbatchId=0&quot;).read())
+  File &quot;C:\Python27\lib\urllib.py&quot;, line 1268, in quote
+    return &#39;&#39;.join(map(quoter, s))
+KeyError: u&#39;\xe3&#39;
+																						</div>

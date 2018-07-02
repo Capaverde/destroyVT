@@ -2,7 +2,7 @@ import crawl
 import post
 
 post.install_opener()
-post.login("email@bol.com.br", "senha")	#modificar esta linha com dados corretos, da sua conta do fórum
+post.login("dudups51@bol.com.br", "9d6ha5o4")	#modificar esta linha com dados corretos, da sua conta do fórum
 
 threadids = crawl.getthreadids(57, 1)
 nicks = []
